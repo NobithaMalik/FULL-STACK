@@ -1,0 +1,56 @@
+
+div{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(12, 102, 229);
+    color: #e9dddd;
+    align-items: center;
+    justify-content: center;
+    font-style: oblique;
+    border-radius:50%;
+    border:  5px solid black;
+    margin-bottom: 90px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.round1:hover{
+    margin-left: 400px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(199, 243, 78);
+    transition: 2s ease-in-out;
+    color: rgb(25, 26, 26);
+    transform:translateY(300px) rotate(360deg);
+    
+}
+.round2:hover{
+    margin-left:400px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(199, 243, 78);
+    transition-delay: 2s;
+    transition: 2s;
+    color: rgb(25, 26, 26);
+    transform:translateY(-300px) rotate(360deg);
+}
+.h{
+    width: 100px;
+    height: 100px;
+    animation-name: Malik;
+    animation-duration: 5s;
+
+    
+}
+@keyframes Malik
+{
+  from{
+    transform: translate(0px);
+
+  }
+  to{
+    transform: translate(500px);
+    animation:
+  }
+}
+
